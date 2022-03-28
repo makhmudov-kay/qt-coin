@@ -1,0 +1,172 @@
+nz-sider {
+  overflow: auto;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+}
+
+nz-header {
+  background: #313132;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nz-content {
+  height: 100%;
+}
+
+.inner-content {
+  padding: 24px;
+  background: #fff;
+  height: 100%;
+}
+
+nz-footer {
+  text-align: center;
+}
+
+.logo {
+  &-link {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-family: Manrope;
+      color: #fff;
+      font-size: 36px;
+      line-height: 40px;
+      font-weight: 800;
+      margin-left: 10px;
+
+      @media (max-width: 992px) {
+        font-size: 28px;
+        line-height: 30px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 18px;
+        line-height: 20px;
+
+        &.ant-btn {
+          padding: 4px !important;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+.icon-btn {
+  svg {
+    path {
+      transition: 0.4s;
+      stroke: #fff
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        stroke: #1890ff;
+      }
+    }
+  }
+
+  &:focus {
+    svg {
+      path {
+        stroke: #1890ff;
+      }
+    }
+  }
+}
+
+.nav {
+  &-btn {
+    margin-left: 40px;
+
+    @media (max-width: 992px) {
+      margin-left: 30px;
+    }
+  }
+
+  &-icons {
+    margin-left: 20px;
+
+    @media (max-width: 992px) {
+      margin-left: 15px;
+    }
+  }
+}
+
+
+.sider {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+
+  &-top {
+    height: 64px;
+    overflow: hidden;
+  }
+
+  &-divider {
+    background: rgba(255, 255, 255, 0.25);
+    margin-top: 0;
+    height: 2px;
+  }
+
+  &-logo {
+    font-size: 72px;
+    line-height: 79px;
+    font-weight: 800;
+    font-family: Manrope;
+    color: #fff;
+    margin-bottom: 75px;
+
+    svg {
+      width: 70px;
+      height: 70px;
+    }
+
+    @media (max-width: 576px) {
+      margin-bottom: 33px;
+      font-size: 42px;
+      line-height: 53px;
+
+      svg {
+        width: 24px;
+        height: 40px;
+      }
+    }
+
+    span {
+      margin-left: 10px;
+    }
+  }
+
+  &-link {
+    font-size: 36px;
+    font-family: Manrope;
+    color: #fff;
+    font-weight: 700;
+    line-height: 40px;
+
+    &:hover {
+      color: #0071E3;
+    }
+  }
+}
