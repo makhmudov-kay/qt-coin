@@ -1,0 +1,36 @@
+<div class="container">
+  <div nz-row class="advantages" [nzGutter]="[0, 80]">
+    <div nz-col nzSpan="24">
+      <h2 nz-typography class="advantages__title">
+        <span>Основные преимущества</span> QT Coin
+      </h2>
+    </div>
+    <div nz-col nzSpan="24">
+      <div nz-row [nzGutter]="[30, 20]">
+        <div nz-col nzSpan="6" *ngFor="let card of cards">
+          <div class="card">
+            <div nz-row [nzGutter]="[0, 27]">
+                <div nz-col nzSpan="24">
+                  <div>
+                    <img src="../../../assets/images/card-c.png" alt="card" />
+                  </div>
+                </div>
+                <div nz-col nzSpan="24">
+                  <div nz-row [nzGutter]="[0, 12]">
+                    <div nz-col nzSpan="24" class="card__title">
+                      <h4 nz-typography>{{card.title}}</h4>
+                    </div>
+                    <div nz-col nzSpan="24" class="card__text">
+                      <p nz-typography>
+                        {{card.text}}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

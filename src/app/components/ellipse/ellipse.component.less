@@ -1,0 +1,22 @@
+.ellipse {
+    position: relative;
+
+    &__circle {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        z-index: 100;
+    }
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 90;
+        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
+        filter: blur(340px);
+    }
+}

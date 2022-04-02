@@ -1,0 +1,78 @@
+.banner {
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+    &__block {
+        position: relative;
+        z-index: 1000;
+    }
+
+    &__title {
+        font-size: 80px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 88px;
+        color: #1D1D1F;
+    }
+
+    &__description {
+        font-size: 24px;
+        line-height: 29px;
+        color: #8B8B90;
+        font-family: Manrope;
+        font-weight: 500;
+    }
+
+    &__btn {
+        font-size: 20px;
+        line-height: 20px;
+        font-family: Manrope;
+        font-weight: 500;
+        padding: 20px 40px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        background: #fff;
+
+
+        &.primary {
+            background: #0071E3;
+            color: #fff;
+
+            &:hover {
+                background: #328AE3;
+            }
+
+            &:active {
+                background: darken(#0071E3, 10%)
+            }
+        }
+
+        &.default {
+            background: #fff;
+            color: #1D1D1F;
+
+            &:hover {
+                outline: 1px solid #0071E3;
+            }
+
+            &:active {
+                background: darken(#fff, 10%);
+                outline: none;
+            }
+        }
+    }
+
+    .elipse {
+        position: absolute;
+        top: 90vh;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+}

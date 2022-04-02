@@ -7,7 +7,7 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { ru_RU } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import ru from '@angular/common/locales/ru';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 /* NG-ZORRO */
@@ -27,12 +27,32 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
 import { NzSpinModule } from 'ng-zorro-antd/spin';
 import { NzBackTopModule } from 'ng-zorro-antd/back-top';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { BannerComponent } from './components/banner/banner.component';
+import { ChartComponent } from './components/chart/chart.component';
+import { GuideComponent } from './components/guide/guide.component';
+import { AboutComponent } from './components/about/about.component';
+import { AdvantagesComponent } from './components/advantages/advantages.component';
+import { SafetyComponent } from './components/safety/safety.component';
+import { RequestComponent } from './components/request/request.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { NzStepsModule } from 'ng-zorro-antd/steps';
+import { NzCarouselModule } from 'ng-zorro-antd/carousel';
+import { EllipseComponent } from './components/ellipse/ellipse.component';
 
 registerLocaleData(ru);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BannerComponent,
+    ChartComponent,
+    GuideComponent,
+    AboutComponent,
+    AdvantagesComponent,
+    SafetyComponent,
+    RequestComponent,
+    FaqComponent,
+    EllipseComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +60,7 @@ registerLocaleData(ru);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     /* NG-ZORRO */
     NzLayoutModule,
     NzGridModule,
@@ -56,7 +77,9 @@ registerLocaleData(ru);
     NzModalModule,
     NzSpinModule,
     NzBackTopModule,
-    NzDividerModule
+    NzDividerModule,
+    NzStepsModule,
+    NzCarouselModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: ru_RU }],
   bootstrap: [AppComponent]

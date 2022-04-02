@@ -1,0 +1,74 @@
+<div class="request">
+  <div class="container">
+    <div nz-row>
+      <div nz-col nzSpan="24">
+        <h2 class="request__title"><span>Оставьте заявку</span> на регистрацию</h2>
+      </div>
+      <div nz-col nzSpan="24">
+        <h5 nz-typography class="request__subtitle">
+          Заполните форму, наш менеджер свяжется с вами в ближайшее время
+        </h5>
+        <form nz-form class="form" [formGroup]="requestForm" (ngSubmit)="submitForm()">
+          <div nz-row [nzGutter]="[30, 0]">
+            <div nz-col nzSpan="6">
+              <nz-form-item>
+                <nz-form-control [nzSpan]="24">
+                  <input
+                    nz-input
+                    type="text"
+                    nzSize="large"
+                    placeholder="Ваше имя"
+                    formControlName="name"
+                  />
+                </nz-form-control>
+              </nz-form-item>
+            </div>
+            <div nz-col nzSpan="6">
+              <nz-form-item>
+                <nz-form-control [nzSpan]="24">
+                  <input
+                    nz-input
+                    type="email"
+                    nzSize="large"
+                    placeholder="Почта"
+                    formControlName="email"
+                  />
+                </nz-form-control>
+              </nz-form-item>
+            </div>
+            <div nz-col nzSpan="6">
+              <nz-form-item>
+                <nz-form-control [nzSpan]="24">
+                  <input
+                    nz-input
+                    type="number"
+                    nzSize="large"
+                    placeholder="Ваш телефон"
+                    formControlName="phone"
+                  />
+                </nz-form-control>
+              </nz-form-item>
+            </div>
+            <div nz-col nzSpan="6">
+              <button nz-button nzType="primary" nzSize="large" nzBlock="">
+                Отправить заявку
+              </button>
+            </div>
+            <div nz-col nzSpan="24">
+              <nz-form-item>
+                <nz-form-control [nzSpan]="24">
+                  <nz-form-label class="form__label">
+                    <input nz-input type="checkbox" [checked]="true" /><span
+                      >согласен на обработку персональных даннных, получение
+                      рассылок, а также с политикой конфиденциальности.</span
+                    ></nz-form-label
+                  >
+                </nz-form-control>
+              </nz-form-item>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

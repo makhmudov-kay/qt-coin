@@ -16,6 +16,7 @@ nz-header {
 
 nz-content {
   height: 100%;
+  background: #fff;
 }
 
 .inner-content {
@@ -25,7 +26,8 @@ nz-content {
 }
 
 nz-footer {
-  text-align: center;
+  background: #F5F5F7;
+  padding: 43px 0 57px 0;
 }
 
 .logo {
@@ -167,6 +169,74 @@ nz-footer {
 
     &:hover {
       color: #0071E3;
+    }
+  }
+}
+
+.footer {
+  &__logo {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 36px;
+      line-height: 40px;
+      font-family: Manrope;
+      font-weight: 800;
+      color: #424245;
+      margin-left: 10px;
+    }
+  }
+
+  &__icon {
+    margin-right: 40px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Manrope;
+    font-weight: 400;
+    color: #8B8B90;
+  }
+
+  &__privacy {
+    a {
+      font-size: 12px;
+      line-height: 15px;
+      font-family: Manrope;
+      font-weight: 400;
+      color: #0371E2;
+      margin-right: 20px;
+    }
+  }
+
+  &__menu-title {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Manrope;
+    font-weight: 700;
+    color: #8B8B90;
+    margin-bottom: 27px;
+  }
+
+  &__menu-link {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Manrope;
+    font-weight: 400;
+    color: #8B8B90;
+    margin-bottom: 20px;
+    transition: 0.3s;
+
+    &:hover {
+      color: #0371E2;
+    }
+  }
+
+  &__store {
+    a {
+      margin-right: 30px;
     }
   }
 }

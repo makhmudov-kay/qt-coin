@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="faq">
+    <h2 nz-typography class="faq__title">
+      Часто задаваемые <span>вопросы</span>
+    </h2>
+    <nz-collapse nzGhost nzAccordion [nzExpandIconPosition]="'right'">
+      <nz-collapse-panel
+        #p
+        *ngFor="let panel of panels"
+        [nzHeader]="title"
+        [nzExtra]="extraTpl"
+        [nzShowArrow]="false"
+        [nzActive]="panel.active"
+      >
+        <p style="margin: 0" class="faq__panel-text">
+          {{ panel.text }}
+        </p>
+        <ng-template #title>
+          <div class="faq__panel-head">
+            <h4 class="faq__panel-title" nz-typography>{{ panel.name }}</h4>
+          </div>
+        </ng-template>
+        <ng-template #extraTpl let-active>
+          {{ active }}
+          <i class="trigger">
+            <img
+              [src]="
+                p.nzActive
+                  ? '../../../assets/images/minus.svg'
+                  : '../../../assets/images/plus.svg'
+              "
+              alt="icon"
+            />
+          </i>
+        </ng-template>
+      </nz-collapse-panel>
+    </nz-collapse>
+  </div>
+</div>
