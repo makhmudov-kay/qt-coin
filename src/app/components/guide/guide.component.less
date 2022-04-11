@@ -23,14 +23,36 @@
     position: relative;
     z-index: 100;
 
+    @media (max-width: 992px) {
+        height: 900px;
+    }
+    @media (max-width: 768px) {
+        height: 760px;
+    }
+
     [nz-carousel-content] {
         height: 714px;
         padding: 120px 0 108px;
         overflow: hidden;
+        @media (max-width: 992px) {
+            height: 900px;
+        }
+
+        @media (max-width: 768px) {
+            padding: 80px 0 60px;
+            height: 760px;
+        }
     }
 
     .carousel {
         height: 714px;
+        @media (max-width: 992px) {
+            height: 900px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            height: 760px;
+        }
     }
 
     &__title {
@@ -43,6 +65,18 @@
         span {
             color: #0071E3;
         }
+
+        @media (max-width: 1200px) {
+            font-size: 48px;
+            line-height: 53px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 24px;
+            line-height: 26px;
+            text-align: center;
+        }
     }
 
     &__description {
@@ -51,6 +85,16 @@
         color: #8B8B90;
         font-family: Manrope;
         font-weight: 500;
+
+        @media (max-width: 992px) {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 12px;
+            line-height: 14px;
+        }
     }
 
     &__btn {
@@ -71,9 +115,24 @@
         &:active {
             background: darken(#0071E3, 10%);
         }
+
+        @media (max-width: 768px) {
+            padding: 15px 30px;
+        }
     }
 
+    .carousel-img {
+        width: 350px;
+        margin: auto;
+        @media (max-width: 1200px) {
+            width: 280px;
+        }
+        @media (max-width: 768px) {
+            width: 220px;
+        }
 
-
-
+        img {
+            width: 100%;
+        }
+    }
 }

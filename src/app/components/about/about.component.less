@@ -1,9 +1,14 @@
 .about {
-    margin-top: 160px;
+    margin-top: 100px;
     margin-bottom: 150px;
     padding: 94px 0 124px;
     position: relative;
     z-index: 100;
+
+    @media (max-width: 768px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
     &__block {
         position: relative;
@@ -18,6 +23,21 @@
 
         span {
             color: #0370E2;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 48px;
+            line-height: 53px;
+            text-align: center;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 24px;
+            line-height: 26px;
+
+            span {
+                color: #0370E2;
+            }
         }
     }
 
@@ -35,11 +55,41 @@
         line-height: 24px;
         font-family: Manrope;
         font-weight: 600;
+        transition: 0.3s;
+
+        @media (max-width: 992px) {
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            color: #fff;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 9px;
+            line-height: 9px;
+            
+        }
+
+        &:hover {
+            color: #1D1D1F
+        }
     }
 
     .elipse {
         position: absolute;
         top: 0;
-        left: 0;
+        left: -50%;
+        z-index: -1;
+        width: 100%;
+
+        @media (max-width: 992px) {
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);            
+        }
+
+        @media (max-width: 768px) {
+            top: 30px;
+        }
     }
 }

@@ -53,3 +53,98 @@ ul {
 li {
     list-style: none;
 }
+
+.ant-modal-body {
+    padding: 0;
+    border-radius: 25px;
+    overflow: hidden;
+
+    .sliders {
+        padding: 40px 80px;
+
+        &__type {
+            font-size: 16px;
+            font-family: Manrope;
+            font-weight: 500;
+            color: #8B8B90;
+        }
+
+        &__count {
+            font-size: 24px;
+            line-height: 33px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+
+        .from-to {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            span {
+                display: block;
+                color: #8B8B90;
+                font-size: 16px;
+                line-height: 22px;
+                font-family: Manrope;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .price {
+        padding: 47px 80px;
+        background: #0072E3;
+
+        &__subtitle {
+            font-size: 12px;
+            font-family: Manrope;
+            font-weight: 500;
+            line-height: 16px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+
+        &__count {
+            font-size: 32px;
+            line-height: 44px;
+            color: #fff;
+            font-family: Manrope;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__description {
+            font-size: 12px;
+            line-height: 16px;
+            font-family: Manrope;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+
+    .calculate__btn {
+        display: block;
+        width: 100%;
+        background: #000;
+        color: #fff;
+        padding: 19px;
+        font-size: 20px;
+        font-family: Manrope;
+        font-weight: 700;
+        border-radius: 8px;
+        border: none;
+
+        &:hover {
+            background: lighten(#000, 10%);
+        }
+
+        &:active {
+            background: lighten(#000, 2%);
+        }
+    }
+}
+
+.ant-modal-content {
+    border-radius: 25px;
+}

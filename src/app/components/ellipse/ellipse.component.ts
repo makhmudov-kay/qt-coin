@@ -6,11 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./ellipse.component.less']
 })
 export class EllipseComponent implements OnInit {
-  @Input() width = '1089';
-  @Input() height = '1089';
-
-  @Input() widthBg = '1180px'
-  @Input() heightBg = '1180px'
+  @Input() banner!: boolean;
+  @Input() about!: boolean;
+  @Input() chain!: boolean;
   
   constructor() { }
 

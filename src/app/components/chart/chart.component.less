@@ -1,12 +1,39 @@
-.charts {
-    margin-top: 250px;
-    margin-bottom: 80px;
+.charts-block {
     position: relative;
-    z-index: 100;
-    &__block {
-        border-radius: 8px;
-        background: #fff;
-        height: 190px;
-        border: 1px solid #000;
+    .charts {
+        margin-top: 150px;
+        margin-bottom: 80px;
+        position: relative;
+        z-index: 100;
+
+        @media (max-width: 768px) {
+            margin-top: 30px;
+        }
+
+        &__block {
+            border-radius: 8px;
+            background: #fff;
+            height: 190px;
+            border: 1px solid #000;
+
+        }
+    }
+
+    .ellipse {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        z-index: 10;
+        transform: translateX(-50%);
+
+        @media (max-width: 1200px) {
+            top: -20px;
+        }
+        @media (max-width: 768px) {
+            top: 0px;
+        }
+        @media (max-width: 576px) {
+            top: -20px;
+        }
     }
 }
