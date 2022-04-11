@@ -311,6 +311,8 @@
 }
 
 
+
+
 .chain-ellipse {
     position: relative;
     /* @media (max-width: 1350px) {
@@ -354,6 +356,100 @@
         border-radius: 50%;
         background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
         filter: blur(340px);
+        animation: blur 4s infinite linear;
+
+        @keyframes blur {
+            0% {
+                filter: blur(340px);
+            } 
+
+            50% {
+                filter: blur(170px);
+            }
+
+            100% {
+                filter: blur(340px);
+            } 
+        }
+
+        @media (max-width: 1350px) {
+            width: 900px;
+            height: 900;
+            filter: blur(180px);
+            @keyframes blur {
+                0% {
+                    filter: blur(180px);
+                } 
+    
+                50% {
+                    filter: blur(90px);
+                }
+    
+                100% {
+                    filter: blur(180px);
+                } 
+            }
+        }
+        
+        @media (max-width: 768px) {
+            width: 550px;
+            height: 550px;
+        }
+        @media (max-width: 576px) {
+            width: 320px;
+            height: 320px;
+            filter: blur(90px);
+            @keyframes blur {
+                0% {
+                    filter: blur(90px);
+                } 
+    
+                50% {
+                    filter: blur(30px);
+                }
+    
+                100% {
+                    filter: blur(90px);
+                } 
+            }
+        }
+    }
+}
+
+
+.modal-ellipse {
+    position: relative;
+
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        z-index: 100;
+
+        img {
+            width: 400px;
+            height:400px;
+
+            @media (max-width: 576px) {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+
+    .bg {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 90;
+        border-radius: 50%;
+        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
+        filter: blur(120px);
         animation: blur 4s infinite linear;
 
         @keyframes blur {

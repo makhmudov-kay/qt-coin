@@ -3,27 +3,159 @@
     <div nz-row [nzGutter]="[0, 35]" nzJustify="center">
       <div nz-col nzSpan="20">
         <h1 nz-typography class="text-center banner__title">
-          Как начать торговать криптовалютой на QtCoin
+          {{'bannerHeader' | translate}}
         </h1>
       </div>
       <div nz-col nzSpan="16">
-        <p nz-typography class="text-center banner__description">
-          QT Coin Exchange является ведущей в мире платформой для торговли
-          цифровыми активами, платформа имеет многолетний опыт работы в сфере
-          финансовых услуг цифровых активов<br />Грамотные и безопасные
-          инвестиции в ваше будущее уже сегодня
+        <p nz-typography class="text-center banner__description" [innerHTML]="'bannerText' | translate">          
         </p>
       </div>
       <div nz-col nzSpan="16">
         <div nz-row [nzGutter]="[16, 16]" nzJustify="center">
           <div nz-col nzXs="24" nzSm="24" nzMd="12" nzLg="12" class="btn-text btn-pos">
-            <button class="banner__btn primary">Расчитать доходность</button>
+            <button class="banner__btn primary" (click)="showModalCalc()">{{'calcProfit' | translate}}</button>
           </div>
           <div nz-col nzXs="24" nzSm="24" nzMd="12" nzLg="12" class="btn-pos">
-            <button class="banner__btn default">Начните зарабатывать</button>
+            <button class="banner__btn default" (click)="showModalForm()">{{'beginEarn' | translate}}</button>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+<!-- CALC MODAL -->
+<nz-modal
+  [(nzVisible)]="isVisibleCalculate"
+  [nzFooter]="null"
+  class="calculate"
+  (nzOnCancel)="handleCancelCalc()"
+>
+  <ng-container *nzModalContent>
+    <div nz-row>
+      <div nz-col nzSpan="24">
+        <div class="sliders">
+          <div nz-row>
+            <div nz-col nzSpan="24">
+              <p class="sliders__type">{{'loanAmount' | translate}}</p>
+              <p class="sliders__count">USDT 14.500.000</p>
+              <div>
+                <nz-slider [(ngModel)]="value1"></nz-slider>
+                <div class="from-to">
+                  <span class="sliders__from">1.000.000</span>
+                  <span class="sliders__to">17.480.000</span>
+                </div>
+              </div>
+            </div>
+            <div nz-col nzSpan="24">
+              <p class="sliders__type">{{"loanPeriod" | translate}}</p>
+              <p class="sliders__count">12 month</p>
+              <div>
+                <nz-slider [(ngModel)]="value1"></nz-slider>
+                <div class="from-to">
+                  <span class="sliders__from">6 Months</span>
+                  <span class="sliders__to">18 Months</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div nz-col nzSpan="24">
+        <div class="price">
+          <div nz-row>
+            <div nz-col>
+              <p class="price__subtitle">{{'earnPerMonth' | translate}}</p>
+              <p class="price__count">USDT 150.000</p>
+              <p class="price__description">
+                {{'sliderModalText' | translate}}
+              </p>
+              <button class="calculate__btn" (click)="handleOkCalc()">{{'sendRequest' | translate}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</nz-modal>
+
+<nz-modal
+  [(nzVisible)]="isVisibleLast"
+  (nzOnCancel)="handleCancelLast()"
+  (nzOnOk)="handleOkLast()"
+  [nzFooter]="null"
+>
+  <ng-container *nzModalContent>
+    <div nz-row>
+      <div nz-col nzSpan="24">
+        <div class="congratulation">
+          <div class="congratulation__info">
+            <h4 class="congratulation__title">{{'modalLastTitle' | translate}}</h4>
+            <p class="congratulation__text">
+              {{'modalLastText' | translate}}
+            </p>
+            <button nz-button nzType="primary" nzBlock nzSize="large" (click)="handleOkLast()">
+              {{'modalLastBtn' | translate}}
+            </button>
+          </div>
+          <div class="ellipse">
+            <app-ellipse [modal]="true"></app-ellipse>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</nz-modal>
+
+<!-- FORM MODAL -->
+<nz-modal
+  [(nzVisible)]="isVisibleModalForm"
+  (nzOnCancel)="handleCancelModalForm()"
+  (nzOnOk)="handleOkModalForm()"
+  [nzFooter]="null"
+>
+  <ng-container *nzModalContent>
+    <div nz-row>
+      <div nz-col nzSpan="24">
+        <div class="modal-form">
+          <form
+            nz-form
+            [formGroup]="modalForm"
+            (ngSubmit)="submit($event)"
+            nzLayout="vertical"
+          >
+            <h3 class="modal-form__title" [innerHTML]="'requestBlockTitle' | translate">
+            </h3>
+            <p class="modal-form__text">
+              {{'requestBlockSubTitle' | translate}}
+            </p>
+            <nz-form-item>
+              <nz-form-control [nzSpan]="24">
+                <input class="modal-form__input" nz-input type="text" nzSize="large" [placeholder]="'inpYourName' | translate" name="username" formControlName="username" />
+              </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+              <nz-form-control [nzSpan]="24">
+                <input class="modal-form__input" nz-input type="text" nzSize="large" [placeholder]="'inpYourEmail' | translate" name="email" formControlName="email"/>
+              </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+              <nz-form-control [nzSpan]="24">
+                <input class="modal-form__input" nz-input type="text" nzSize="large" [placeholder]="'inpYourPhone' | translate" name="phone" formControlName="phone"/>
+              </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+              <nz-form-control [nzSpan]="24">
+                <label nz-checkbox formControlName="checked"
+                  ><span class="modal-form__check">{{'checked' | translate}}</span></label
+                >
+              </nz-form-control>
+            </nz-form-item>
+            <button nz-button nzType="primary" nzBlock nzSize="large" class="modal-form__btn">{{'sendRequest' | translate}}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</nz-modal>

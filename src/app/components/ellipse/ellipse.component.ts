@@ -9,6 +9,7 @@ export class EllipseComponent implements OnInit {
   @Input() banner!: boolean;
   @Input() about!: boolean;
   @Input() chain!: boolean;
+  @Input() modal!: boolean;
   
   constructor() { }
 

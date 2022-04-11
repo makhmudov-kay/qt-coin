@@ -8,7 +8,7 @@ import { ru_RU } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import ru from '@angular/common/locales/ru';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 /* NG-ZORRO */
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
@@ -38,6 +38,9 @@ import { FaqComponent } from './components/faq/faq.component';
 import { NzStepsModule } from 'ng-zorro-antd/steps';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { EllipseComponent } from './components/ellipse/ellipse.component';
+import { NzTagModule } from 'ng-zorro-antd/tag';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { createTranslateLoader } from './helpers/http-loader-factory';
 
 registerLocaleData(ru);
 
@@ -52,9 +55,20 @@ registerLocaleData(ru);
     SafetyComponent,
     RequestComponent,
     FaqComponent,
-    EllipseComponent
+    EllipseComponent,
   ],
   imports: [
+    /**
+     * NGX-TRANSLATE
+     */
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createTranslateLoader,
+        deps: [HttpClient],
+      }
+    }),
+
     BrowserModule,
     AppRoutingModule,
     FormsModule,
@@ -80,8 +94,9 @@ registerLocaleData(ru);
     NzDividerModule,
     NzStepsModule,
     NzCarouselModule,
+    NzTagModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: ru_RU }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

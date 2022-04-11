@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SafetyComponent implements OnInit {
 
   safety = [
-    {title: 'Гарантия безопасности', text: 'QtCoin использует самые современные протоколы безопасности на рынке'},
-    {title: 'Активы застрахованы', text: 'Биржа QtCoin ведет свою деятельность в Японии, Южной Корее , обладет высоким кредитом доверия и славится своей надежностью'},
-    {title: 'Открытое общение с клиентом', text: 'Комманда DataSignal  даст вам точные инструкции и научит торговать криптовалютой и грамотно инвестировать.  Мы здесь чтобы отвечать на ваши вопросы и решать ваши проблемы'},
+    {title: 'safetyBlockOneTitle', text: 'safetyBlockOneText'},
+    {title: 'safetyBlockTwoTitle', text: 'safetyBlockTwoText'},
+    {title: 'safetyBlockThreeTitle', text: 'safetyBlockThreeText'},
   ]
 
   constructor() { }

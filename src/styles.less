@@ -143,6 +143,87 @@ li {
             background: lighten(#000, 2%);
         }
     }
+
+    .congratulation {
+        position: relative;
+        padding: 80px;
+        height: 640px;
+
+        .ellipse {
+            position: absolute;
+            width: 470px;
+            height: 340px;
+            bottom: -50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &__title {
+            font-size: 48px;
+            font-family: Manrope;
+            font-weight: 800;
+            line-height: 53px;
+            max-width: 230px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        &__text {
+            font-size: 24px;
+            line-height: 24px;
+            font-family: Manrope;
+            font-weight: 500;
+            color: #8B8B90;
+            margin-bottom: 53px;
+        }
+    }
+
+    .modal-form {
+        padding: 80px;
+        background: url(./assets/images/modal-bg.jpg);
+        border-radius: 25px;
+
+        &__title {
+            font-size: 42px;
+            line-height: 47px;
+            font-family: Manrope;
+            font-weight: 800;
+
+            span {
+                color: #fff;
+            }
+        }
+
+        &__text {
+            font-size: 24px;
+            font-family: Manrope;
+            font-weight: 500;
+            color: #fff;
+            line-height: 24px;
+        }
+
+        &__input {
+            border-radius: 8px;
+        }
+
+        &__check {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        &__btn {
+            background: #000;
+            height: 60px;
+
+            &:hover {
+                background: lighten(#000, 15%);
+            }
+
+            &:active {
+                background: lighten(#000, 10%);
+            }
+        }
+    }
 }
 
 .ant-modal-content {
