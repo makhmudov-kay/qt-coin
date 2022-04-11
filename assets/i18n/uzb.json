@@ -1,0 +1,132 @@
+{
+    "pullRequest": "Arizani yuborish",
+    "bannerHeader": "QtCoin-da kriptovalyuta savdosini qanday boshlash mumkin",
+    "bannerText": "QT Coin Exchange raqamli aktivlar savdosiga ixtisoslashtirilgan dunyodagi yetakchi platforma hisoblanadi, platforma raqamli aktivlarga moliyaviy xizmatlar koʻrsatish bo‘yicha koʻp yillik tajribaga ega.<br>Kelajagingiz uchun bugunnig o‘zida malakali va xavfsiz investitsiya",
+    "calcProfit": "Daromadlilikni hisoblang",
+    "beginEarn": "Daromad olishni boshlang",
+
+    "passiveProfit": "Kriptovalyuta savdosidan passiv daromad oling",
+    "stepFirstText": "Uyingizdan chiqmasdan va maxsus ma’lumotga ega bo‘lmasdan pul ishlang Bizning servsimiz kriptovalyuta bilan avtomatik savdo qilish uchun mo ljallangan, shu sababli ishni nazorat qilish va kuzatish uchun ko‘p vaqt talab etilmaydi.",
+    "stepFirstBtn": "Qayerdan boshlash kerak?",
+
+    "registered": "1. QtCoin-da ro'yxatdan o'tish",
+    "stepSecondText": "DataSignal saytida ro‘yxatdan o‘tganingizdan so‘ng, tushuntirish xatini olasiz, unga QtCoin ilovasini o‘rnatish uchun havola biriktirilgan bo‘ladi, ilovani o‘rnating va shaxsiy akkaunt yarating.",
+    "stepSecondBtn": "Keyingi",
+
+    "registered2": "2. Binance-da ro'yxatdan o'ting",
+    "stepThirdText": "Binance ilovasini oʻrnating va hamyoningizni to‘ldirish uchun verifikatsiyadan oʻting",
+
+    "buy": "3. USDT sotib oling",
+    "stepFourthText": "Binance platformasida kerakli miqdorda USDT TRC20 tokenlarini xarid qiling, USDT tokenlarini QtCoin ilovasidagi hamyoningizga oʻtkazing",
+
+    "getStepFifthTitle": "4. Signallarni oling",
+    "getStepFifthText": "Biz sizni yopiq telegram kanalga qo‘shamiz, u yerda siz savdo qilish bo‘yicha batafsil ma’lumotlarga ega bo‘lasiz, shuningdek, batafsil signal va ko‘rsatmalarni olasiz.",
+    "ok": "Окей",
+
+    "aboutTitle": "qilib daromad keltiradi?",
+    "aboutTitleSpan": "DataSignal qanday",
+    "aboutText1": "Zamonaviy tahlil texnologiyalaridan foydalangan holda, bizning mutaxassislarimiz Bitcoin va boshqa kriptovalyutalarning ko‘tarilishi va tushishini aniq bashorat qilish imkoniyatiga ega",
+    "aboutText2": "To‘g‘ri va ishonchli signallar orqali ular ushbu ma’lumotni foydalanuvchiga yetkazadi va u yoki bu kriptovalyutani o‘z vaqtida sotib olish yoki sotishga yordam beradi.",
+    "aboutText3": "Aynan mana shu farq tufayli foydalanuvchilarimiz daromadi shakllanadi.",
+    "aboutText4": "Barqaror daromad va maksimal foyda - bu DataSignal jamoasining asosiy tamoyillari",
+
+    "advantagesTitleSpan": "QT Coinning",
+    "advantagesTitleComp": "afzalliklari",
+    "advCardOneTitle": "Soddalik",
+    "advCardOneText": "QtCoin’da savdo qilishni boshlash uchun siz ko‘p yillik tajribaga ega broker bo‘lishingiz shart emas, biz bilan istalgan inson sarmoya kiritishi mumkin.",
+    
+    "advCardTwoTitle": "Maxfiylik",
+    "advCardTwoText": "Sizning ma’lumotlaringiz ishonchli himoya ostida bo‘ladi va oshkor etilmaydi.",
+
+    "advCardThreeTitle": "Foydalanish qulayligi",
+    "advCardThreeText": "Ilovaning sodda va qulay ergonomikasi osonlik bilan savdo qilish imkoniyatini beradi",
+
+    "advCardFourTitle": "Ish faoliyatining samaradorligi va tezligi",
+    "advCardFourText": "Bizning tez va sifatli ishimiz sizning yuqori daromadingizdir",
+
+    "advCardFiveTitle": "Innovatsiyalar",
+    "advCardFiveText": "Biz bir joyda turmaymiz. Innovatsion g‘oyalar va eng zamonaviy tahliliy uskunalar kompaniyamizning asosiy elementlari hisoblanadi",
+
+    "advCardSizTitle": "Mijozlarni qo‘llab-quvvatlash",
+    "advCardSixText": "Biz muammolarni hal qilishga va mijozlarimizning ehtiyojlarini qondirishga to‘liq e’tibor qaratamiz.",
+
+    "advCardSevenTitle": "Shaffoflik",
+    "advCardSevenText": "Bizning tizimimiz mutlaqo shaffof, har bir foydalanuvchi o‘z daromadlari va xarajatlari haqida eng to‘liq ma’lumotga ega bo‘ladi",
+
+    "advCardEightTitle": "Eng yaxshi mutaxassislar",
+    "advCardEightText": "QtCoin jamoasida butun dunyoda faoliyat olib boruvchi o‘nlab eng malakali IT mutaxassislar jamlangan",
+
+    "safetyTitle": " xavfsizligi",
+    "safetyTitleSpan": "Mablag‘laringizning",
+    "safetyBlockOneTitle": "Xavfsizlik kafolati",
+    "safetyBlockOneText": "QtCoin bozordagi eng ilg‘or xavfsizlik protokollaridan foydalanadi",
+    "safetyBlockTwoTitle": "Aktivlar sug‘urtalangan",
+    "safetyBlockTwoText": "QtCoin birjasi Yaponiya, Janubiy Koreyada ishlaydi, yuqori ishonch kreditiga ega va ishonchliligi bilan mashhur",
+    "safetyBlockThreeTitle": "Mijoz bilan ochiq muloqot",
+    "safetyBlockThreeText": "DataSignal jamoasi sizga aniq ko‘rsatmalar beradi va kriptovalyuta bilan qanday savdo qilishni va aql bilan sarmoya kiritishni o‘rgatadi. Biz sizning savollaringizga javob berish va muammolaringizni hal qilish ishlaymiz.",
+
+
+    "requestBlockTitle": "Ro‘yxatdan o‘tish <span>uchun ariza qoldiring</span>",
+    "requestBlockTitleSpan": "Ro‘yxatdan o‘tish",
+    "requestreg": "uchun ariza qoldiring",
+    "requestBlockSubTitle": "Shaklni to‘ldiring, menejerimiz tez orada siz bilan bog‘lanadi",
+    "inpYourName": "Sizning ismingiz",
+    "inpYourEmail": "Pochta",
+    "inpYourPhone": "Telefon raqamingiz",
+    "sendRequest": "Arizani yuborish",
+    "checked": "Men shaxsiy ma'lumotlarni qayta ishlashga, axborot byulletenlarini olishga, shuningdek, maxfiylik siyosatiga roziman.",
+
+    "faqTitle": "Ko'p so'raladigan",
+    "faqTitleSpan": "savollar",
+    
+    "faqFirstTitle": "1. DataSignal nima?",
+    "faqFirstText": "DataSignal – bu treyderlar jamoasi bo‘lib, uning vazifasi QtCoin birjasida qanday savdo qilishni va daromadingizni oshirishni o‘rgatishdan iborat.",
+    
+    "faqSecondtTitle": "2. Kriptovalyutaga sarmoya kiritish xavfsizmi?",
+    "faqSecondtText": "Ha! Kriptovalyuta bozori, boshqa bozorlar singari, doimiy ravishda o‘zining ko‘tarilish va pasayishlarini boshdan kechirmoqda, ammo bugungi kunda savdolarning katta qismi kriptovalyutalar yordamida amalga oshiriladi. Kripto bozorining jadal rivojlanishi va tobora ko‘proq yangi savdo platformalarining paydo bo‘lishi bir narsa haqida gapiradi. Kriptovalyuta – bu kelajak valyutasi ",
+
+    "faqThirdTitle": "3. Hozir kriptovalyutalarga sarmoya kiritish uchun kech emasmi?",
+    "faqThirdText": "Hech qachon kech emas! Har kuni tobora ko‘proq yangi kripto coin’lar va tokenlar paydo bo‘lmoqda, tobora ko‘proq kampaniyalar o‘z aktivlarini kriptovalyutaga o‘tkazmoqda va undan foydalangan holda xalqaro tranzaktsiyalar amalga oshirilmoqda. Datasignal jamoasi sizga yangi investitsiya kiritishda yordam berish va kripto bozorda pul ishlash yo‘llarini o‘rgatish uchun ishlamoqda.",
+
+    "faqFourthTitle": "4. USDT nima?",
+    "faqFourthText": "Tether - bu 2014 yilda Gonkongda ro‘yxatdan o‘tgan Tether Limited kompaniyasi tomonidan chiqarilgan token (ko‘pincha USDT deb ataladi). Ushbu token QtCoin birjasida asosiy to‘lov usuli sifatida foydalaniladi",
+
+    "faqFifthTitle": "5. Kripto hamyonni to‘ldirish yoki pul yechib olish osonmi?",
+    "faqFifthText": "Hamyonni to‘ldirish va pul yechib olish uchun Binance xalqaro moliyaviy platformasidan foydalaniladi. Mablag‘larni vositachilarsiz Visa kartangizga tushirishgiz mumkin.",
+
+    "faqSixthTitle": "6. QtCoin’da savdoni boshlash uchub nima qilish kerak?",
+    "faqSixthText": "Avval, foydalanuvchi o‘zining kripto hamyonini yaratishi va verifikatsiyadan o‘tkazishi kerak, muvaffaqiyatli verifikatsiyadan so‘ng foydalanuvchi telegram kanaliga o‘tkaziladi, u yerda savdo qilish uchun signallarni oladi.",
+
+    "faqSeventhTitle": "7. QtCoin bilan savdo qilish uchun nima kerak?",
+    "faqSeventhText": "Sizga Apple IOS yoki Google Android tizimida ishlaydigan istalgan qurilma, shuningdek barqaror va tez Internet aloqasi kerak bo‘ladi",
+
+    "footerMenuTitle1": "Foydali",
+    "footerLink1": "Daromadlilikni hisoblang",
+    "footerLink2": "Arizangizni yuboring",
+    "footerLink3": "Qayerdan boshlash kerak?",
+
+    "footerMenuTitle2": "Ijtimoiy tarmoq:",
+    "footerLink4": "INSTAGRAM",
+    "footerLink5": "FACEBOOK",
+    "footerLink6": "TELEGRAM",
+
+    "modalLastTitle": "Murojaat uchun rahmat",
+    "modalLastText": "Kutib turing, menejerimiz tez orada siz bilan bog'lanadi",
+    "modalLastBtn": "Bosh sahifaga",
+
+    "loanAmount": "Kredit miqdori",
+    "loanPeriod": "Kredit muddati",
+    "month": "Oy",
+    "twoMonth": "Oy",
+    "manyMonthes": "Oy",
+    "earnPerMonth": "Hisoblangan oylik to'lovlar",
+    "sliderModalText": "Installment fees may change according to the results of the verification of the physical condition of the vehicle at the branch office.",
+
+    "siderLink1": "Главная",
+    "siderLink2": "Получай пассивный доход на торговле криптовалютой",
+    "siderLink3": "Как DataSignal приносит доход?",
+    "siderLink4": "Преимущества DataSignal",
+    "siderLink5": "Безопасность Ваших автивов",
+    "siderLink6": "Оставьте заявку на регистрацию",
+    "siderLink7": "Часто задаваемые вопросы"
+}
