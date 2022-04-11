@@ -31,7 +31,7 @@ export class BannerComponent implements OnInit {
   submit(e: Event) {
     emailjs
       .sendForm(
-        'service_nqd9i1p',
+        'service_gdxrgek',
         'template_7b6rgcs',
         e.target as HTMLFormElement,
         '1odQ4IeCytG309RXM'

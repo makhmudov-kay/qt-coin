@@ -13,30 +13,37 @@
         <div nz-row nzAlign="middle" nzJustify="space-between">
           <div nz-col class="nav-icons">
             <button
-              nz-button
-              nzType="default"
-              nzGhost
-              nzShape="circle"
-              [nzSize]="size"
-              class="icon-btn"
-            >
-              <i nz-icon>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M13.8325 6.17463L8.10904 11.9592L1.59944 7.88767C0.66675 7.30414 0.860765 5.88744 1.91572 5.57893L17.3712 1.05277C18.3373 0.769629 19.2326 1.67283 18.9456 2.642L14.3731 18.0868C14.0598 19.1432 12.6512 19.332 12.0732 18.3953L8.10601 11.9602"
-                    stroke="white"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </i>
+                    nz-button
+                    nzType="default"
+                    nzGhost
+                    nzShape="circle"
+                    [nzSize]="size"
+                    class="icon-btn"
+                  >
+                    <i nz-icon>
+                      <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.9224 1.1001L13.0909 1.1001C15.8424 1.1001 17.4598 1.62799 18.4207 2.58778C19.3816 3.54757 19.9114 5.16425 19.9147 7.91579L19.9207 13.0844C19.924 15.8359 19.398 17.4526 18.4393 18.4124C17.4806 19.3722 15.8645 19.9001 13.113 19.9001H7.94451C5.19297 19.9001 3.57565 19.3722 2.61471 18.4124C1.65378 17.4526 1.12398 15.8359 1.12074 13.0844L1.11466 7.91579C1.11142 5.16425 1.63743 3.54757 2.5961 2.58778C3.55478 1.62799 5.17086 1.1001 7.9224 1.1001Z" stroke="white" stroke-width="2"/>
+                        <path d="M15.9965 6.27707C16.6927 6.27707 17.2565 5.71263 17.2556 5.01646C17.2548 4.3203 16.6898 3.75586 15.9936 3.75586C15.2973 3.75586 14.7336 4.3203 14.7344 5.01646C14.7353 5.71263 15.3003 6.27707 15.9965 6.27707Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.16035 10.5632C5.15679 7.53768 7.54913 5.14249 10.5746 5.14249C13.474 5.14249 15.8719 7.53768 15.7494 10.5632C15.7528 13.4625 13.3605 15.8576 10.4611 15.8576C7.56173 15.8576 5.16376 13.4625 5.16035 10.5632ZM7.30338 10.5632C7.30546 12.3279 8.6939 13.8407 10.5848 13.8407C12.3497 13.8407 13.8606 12.3279 13.8585 10.5632C13.8565 8.79828 12.468 7.28546 10.5771 7.28546C8.81225 7.28546 7.30116 8.67225 7.30338 10.5632Z" fill="white"/>
+                        </svg>
+                        
+                    </i>
+            </button>
+          </div>
+          <div nz-col class="nav-icons">
+            <button
+                    nz-button
+                    nzType="default"
+                    nzGhost
+                    nzShape="circle"
+                    [nzSize]="size"
+                    class="icon-btn"
+                  >
+                    <i nz-icon>
+                      <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.16389 8.88854C3.45804 7.69446 6.01892 6.69781 8.41168 5.69609C12.5282 4.05536 16.661 2.44306 20.8355 0.94203C21.6477 0.686285 23.1071 0.436211 23.2502 1.57357C23.1718 3.18355 22.8495 4.7841 22.6284 6.38465C22.0672 9.90441 21.4186 13.4121 20.7861 16.9203C20.5682 18.0889 19.0191 18.6938 18.0278 17.946C15.6457 16.4255 13.2453 14.9198 10.8936 13.364C10.1232 12.6244 10.8376 11.5621 11.5256 11.0339C13.4875 9.20681 15.5683 7.65448 17.4277 5.73295C17.9293 4.58842 16.4473 5.55299 15.9584 5.84856C13.2725 7.59763 10.6522 9.45348 7.82035 10.9907C6.37383 11.7431 4.68789 11.1001 3.24203 10.6802C1.94566 10.173 0.0459609 9.66203 1.16376 8.88869L1.16389 8.88854Z" fill="white"/>
+                        </svg>                       
+                    </i>
             </button>
           </div>
           <div nz-col class="nav-icons">
@@ -47,51 +54,13 @@
               nzShape="circle"
               [nzSize]="size"
               class="icon-btn"
+              (click)="changeLang()"
             >
-              <i nz-icon>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="Iconly/Light/Message">
-                    <g id="Message">
-                      <path
-                        id="Stroke 1"
-                        d="M17.9026 8.85107L13.4593 12.4641C12.6198 13.1301 11.4387 13.1301 10.5992 12.4641L6.11841 8.85107"
-                        stroke="white"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        id="Stroke 3"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z"
-                        stroke="white"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </g>
-                  </g>
-                </svg>
-              </i>
-            </button>
-          </div>
-          <div nz-col class="nav-icons">
-            <button
-              nz-button
-              nzType="default"
-              nzGhost
-              nzShape="circle"
-              [nzSize]="size"
-              class="icon-btn"
-            >
-              <span>Рус</span>
+            <span [ngSwitch]="currentLanguage">
+              <div *ngSwitchCase="'uzb'">Узб</div>
+              <div *ngSwitchCase="'en'">En</div>
+              <div *ngSwitchDefault>Рус</div>
+            </span>
             </button>
           </div>
         </div>
@@ -175,20 +144,6 @@
             <a>{{'siderLink7' | translate}}</a>
           </li>
         </ul>
-      </div>
-      <div nz-col nzSpan="24">
-        <div nz-row>
-          <div nz-col>
-            <a nz-button nzType="link"
-              ><img src="./assets/images/instagram.svg" alt="icon"
-            /></a>
-          </div>
-          <div nz-col>
-            <a nz-button nzType="link"
-              ><img src="./assets/images/telegram.svg" alt="icon"
-            /></a>
-          </div>
-        </div>
       </div>
     </div>
   </nz-sider>
@@ -423,6 +378,7 @@
             nzType="primary"
             nzShape="circle"
             style="margin-right: 16px"
+            nzSize="large"
           >
             <i nz-icon (click)="isCollapsed = !isCollapsed">
               <svg

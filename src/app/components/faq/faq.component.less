@@ -56,11 +56,6 @@
             font-size: 14px;
             line-height: 18px;
         }
-
-        @media (max-width: 576px) {
-            font-size: 10px;
-            line-height: 12px;
-        }
     }
 
     &__panel-head {
@@ -72,6 +67,10 @@
 nz-collapse-panel {
     padding: 40px 0;
     border-bottom: 1px solid #D2D2D7 !important;
+
+    @media (max-width: 768px) {
+        padding: 10px 0;
+    }
 }
 
 .trigger {
