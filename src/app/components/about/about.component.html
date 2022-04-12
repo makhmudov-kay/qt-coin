@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about" [ngClass]="{'uzb': currentLang === 'uzb', 'en': currentLang === 'en', 'ru': currentLang === 'ru'}">
   <div nz-row>
     <div nz-col nzXs="1" nzSm="1" nzMd="2" nzLg="3" nzXl="3"></div>
     <div nz-col nzXs="22" nzSm="22" nzMd="20" nzLg="18" nzXl="18">
@@ -7,20 +7,25 @@
           <div nz-col nzXs="24" nzLg="12"></div>
           <div nz-col nzXs="24" nzLg="12">
             <div nz-row nzJustify="center">
-              <div nz-col nzXs="18" nzLg="24">
-                <h2 nz-typography class="about__title"><span>{{'aboutTitleSpan' | translate}}</span> {{'aboutTitle' | translate}}</h2>
-            <p nz-typography class="about__text">
-              {{'aboutText1' | translate}}
-            </p>
-            <p nz-typography class="about__text">
-              {{'aboutText2' | translate}}
-            </p>
-            <p nz-typography class="about__text">
-              {{'aboutText3' | translate}}
-            </p>
-            <p nz-typography class="about__text">
-              {{'aboutText4' | translate}}
-            </p>
+              <div nz-col nzXs="19" nzLg="24">
+                <h2 nz-typography class="about__title">
+                  <span>{{ "aboutTitleSpan" | translate }}</span>
+                  {{ "aboutTitle" | translate }}
+                </h2>
+                <div class="texts">
+                  <p nz-typography class="about__text">
+                    {{ "aboutText1" | translate }}
+                  </p>
+                  <p nz-typography class="about__text">
+                    {{ "aboutText2" | translate }}
+                  </p>
+                  <p nz-typography class="about__text">
+                    {{ "aboutText3" | translate }}
+                  </p>
+                  <p nz-typography class="about__text">
+                    {{ "aboutText4" | translate }}
+                  </p>
+                </div>
               </div>
             </div>
           </div>

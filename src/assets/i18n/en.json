@@ -1,6 +1,7 @@
 {
     "pullRequest": "Leave a request",
-    "bannerHeader": "How to start trading cryptocurrency on QtCoin",
+    "bannerHeader": "How to start trading cryptocurrency on QTCoin",
+    "bannerHeaderSpan": "QTCoin",
     "bannerText": "QT Coin Exchange is the world's leading digital asset trading platform, the platform has years of experience in digital asset financial services <br>Competent and safe investment in your future today",
     "calcProfit": "Calculate the income",
     "beginEarn": "Start earning money",
@@ -9,15 +10,15 @@
     "stepFirstText": "Make money without leaving home and without any special knowledge Our service is designed for automatic cryptocurrency trading and does not require much time to control and monitor the work",
     "stepFirstBtn": "Where to start",
 
-    "registered": "1. Registration on QtCoin",
-    "stepSecondText": "After successful registration on the site DataSignal you will receive an explanatory e-mail, which will contain a link to the application QtCoin, install the application and create your personal account",
+    "registered": "1. Registration on QTCoin",
+    "stepSecondText": "After successful registration on the site DataSignal you will receive an explanatory e-mail, which will contain a link to the application QTCoin, install the application and create your personal account",
     "stepSecondBtn": "Next",
 
     "registered2": "2. Register on Binance",
     "stepThirdText": "Install the application Binance and get verified for recharge wallet ",
 
     "buy": "3. Buy USDT",
-    "stepFourthText": "On Binance buy enough USDT TRC20 tokens, transfer your USDT tokens to your QtCoin wallet",
+    "stepFourthText": "On Binance buy enough USDT TRC20 tokens, transfer your USDT tokens to your QTCoin wallet",
 
     "getStepFifthTitle": "4. Get Signals",
     "getStepFifthText": "We add you to our private Telegram channel, where you will learn details of transactions and receive detailed signals and instructions.",
@@ -33,7 +34,7 @@
     "advantagesTitleSpan": "QT Coin",
     "advantagesTitleComp": "advantages",
     "advCardOneTitle": "Accessibility",
-    "advCardOneText": "You do not have to be a broker with many years of experience to start trading on QtCoin, with us everyone can invest",
+    "advCardOneText": "You do not have to be a broker with many years of experience to start trading on QTCoin, with us everyone can invest",
     
     "advCardTwoTitle": "Privacy",
     "advCardTwoText": "Your data remains secure and cannot be disclosed",
@@ -54,14 +55,14 @@
     "advCardSevenText": "Our system is completely transparent, each user has the most complete information about their income and expenses.",
 
     "advCardEightTitle": "Top Specialists",
-    "advCardEightText": "QtCoin team counts dozens of top IT specialists from all over the world",
+    "advCardEightText": "QTCoin team counts dozens of top IT specialists from all over the world",
 
     "safetyTitle": "of your autos",
     "safetyTitleSpan": "The safety",
     "safetyBlockOneTitle": "Security Guarantee",
-    "safetyBlockOneText": "QtCoin uses the most advanced security protocols on the market",
+    "safetyBlockOneText": "QTCoin uses the most advanced security protocols on the market",
     "safetyBlockTwoTitle": "Assets are insured",
-    "safetyBlockTwoText": "QtCoin has operations in Japan and South Korea and is known for its high credibility",
+    "safetyBlockTwoText": "QTCoin has operations in Japan and South Korea and is known for its high credibility",
     "safetyBlockThreeTitle": "Open communication with the customer",
     "safetyBlockThreeText": "The DataSignal team will give you accurate instructions and teach you how to trade and invest smartly in cryptocurrency. We are here to answer your questions and solve your problems",
 
@@ -79,7 +80,7 @@
     "faqTitleSpan": "(F.A.Q)",
     
     "faqFirstTitle": "1. What is DataSignal",
-    "faqFirstText": "The DataSignal team is a community of traders whose goal is to teach you how to trade on the QtCoin exchange and increase your income.",
+    "faqFirstText": "The DataSignal team is a community of traders whose goal is to teach you how to trade on the QTCoin exchange and increase your income.",
     
     "faqSecondtTitle": "2. Is it safe to invest in cryptocurrency?",
     "faqSecondtText": "Yes! Cryptocurrency market, like any other market, is constantly experiencing its ups and downs, but today the vast majority of transactions are made using cryptocurrency.The rapid development of crypto market and the appearance of new and new trading platforms says one thing - cryptocurrency is the currency of the future ",
@@ -88,15 +89,15 @@
     "faqThirdText": "It is never too late! Every day there are more and more new crypto coins and tokens, more and more companies are transferring their assets into cryptocurrency and making international transactions using it. Datasignal team exists to help you enter a new investment and teach you how to make money in the crypto market",
 
     "faqFourthTitle": "4. What is USDT ",
-    "faqFourthText": "What does USDT mean? Tether is a token (often referred to as USDT) issued by Hong Kong-registered Tether Limited in 2014 This token is used as the main payment method on the QtCoin exchange Its ratio to the US dollar fluctuates slightly and is equal to 1:1",
+    "faqFourthText": "What does USDT mean? Tether is a token (often referred to as USDT) issued by Hong Kong-registered Tether Limited in 2014 This token is used as the main payment method on the QTCoin exchange Its ratio to the US dollar fluctuates slightly and is equal to 1:1",
 
     "faqFifthTitle": "5. Is it easy to deposit or withdraw crypto-purse ",
     "faqFifthText": "For deposits and withdrawals the international financial platform Binance is used. You can also withdraw the money immediately to your Visa card without intermediaries",
 
-    "faqSixthTitle": "6. How to Start Trading on QtCoin",
+    "faqSixthTitle": "6. How to Start Trading on QTCoin",
     "faqSixthText": "After successful verification, the user is transferred to the Telegram Channel, where he receives signals for trading",
 
-    "faqSeventhTitle": "7. What do I need to trade on QtCoin ",
+    "faqSeventhTitle": "7. What do I need to trade on QTCoin ",
     "faqSeventhText": "You need any device based on Apple IOS or Google Android, as well as a stable and fast Internet connection",
 
     "footerMenuTitle1": "Useful",
@@ -118,7 +119,7 @@
     "month": "month",
     "twoMonth": "months",
     "manyMonthes": "months",
-    "earnPerMonth": "Estimated monthly installments",
+    "earnPerMonth": "Total",
     "sliderModalText": "Installment fees may change according to the results of the verification of the physical condition of the vehicle at the branch office.",
 
     "siderLink1": "Home",
@@ -127,5 +128,7 @@
     "siderLink4": "How does DataSignal generate income?",
     "siderLink5": "Security of your assets",
     "siderLink6": "Leave a request for registration",
-    "siderLink7": "Frequently asked Questions"
+    "siderLink7": "Frequently asked Questions",
+
+    "footerLinkQT": "Registration for QTCoin"
 }

@@ -29,483 +29,518 @@
 } */
 
 .banner-ellipse {
-    position: relative;
-    /* @media (max-width: 1350px) {
+  position: relative;
+  /* @media (max-width: 1350px) {
         margin-top: 25px;
     }
     @media (max-width: 1115px) {
         margin-top: 45px;
     } */
 
-    .circle {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        z-index: 100;
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 100;
 
-        img {
-            width: 800px;
-            height:800px;
+    img {
+      width: 800px;
+      height: 800px;
 
-            // @media (max-width: 1350px) {
-            //     width: 800px;
-            //     height: 800px;
-            // }
+      // @media (max-width: 1350px) {
+      //     width: 800px;
+      //     height: 800px;
+      // }
 
-            @media (max-width: 1115px) {
-                width: 700px;
-                height: 700px;
-            }
+      @media (max-width: 1115px) {
+        width: 700px;
+        height: 700px;
+      }
 
-            @media (max-width: 992px) {
-                width: 600px;
-                height: 600px;
-            }
+      @media (max-width: 992px) {
+        width: 600px;
+        height: 600px;
+      }
 
-            @media (max-width: 768px) {
-                width: 450px;
-                height: 450px;
-            }
-            @media (max-width: 576px) {
-                width: 300px;
-                height: 300px;
-            }
-        }
+      @media (max-width: 768px) {
+        width: 450px;
+        height: 450px;
+      }
+      @media (max-width: 576px) {
+        width: 300px;
+        height: 300px;
+      }
     }
+  }
 
-    .bg {
-        width: 1180px;
-        height: 1180px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 90;
-        border-radius: 50%;
-        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
+  .bg {
+    width: 1180px;
+    height: 1180px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    border-radius: 50%;
+    background: linear-gradient(
+      270.77deg,
+      #0071e3 26.72%,
+      #27b8f1 53.69%,
+      #eb0ef1 20%
+    );
+    filter: blur(340px);
+    animation: blur 4s infinite linear;
+
+    @keyframes blur {
+      0% {
         filter: blur(340px);
-        animation: blur 4s infinite linear;
+      }
 
-        @keyframes blur {
-            0% {
-                filter: blur(340px);
-            } 
+      50% {
+        filter: blur(170px);
+      }
 
-            50% {
-                filter: blur(170px);
-            }
-
-            100% {
-                filter: blur(340px);
-            } 
-        }
-
-        @media (max-width: 1350px) {
-            width: 900px;
-            height: 900;
-            filter: blur(180px);
-            @keyframes blur {
-                0% {
-                    filter: blur(180px);
-                } 
-    
-                50% {
-                    filter: blur(90px);
-                }
-    
-                100% {
-                    filter: blur(180px);
-                } 
-            }
-        }
-
-        @media (max-width: 1115px) {
-            width: 800px;
-            height: 800px;
-        }
-
-        @media (max-width: 992px) {
-            width: 700px;
-            height: 700px;
-            filter: blur(130px);
-            @keyframes blur {
-                0% {
-                    filter: blur(130px);
-                } 
-    
-                50% {
-                    filter: blur(65px);
-                }
-    
-                100% {
-                    filter: blur(130px);
-                } 
-            }
-        }
-        @media (max-width: 768px) {
-            width: 550px;
-            height: 550px;
-        }
-        @media (max-width: 576px) {
-            width: 320px;
-            height: 320px;
-            filter: blur(90px);
-            @keyframes blur {
-                0% {
-                    filter: blur(90px);
-                } 
-    
-                50% {
-                    filter: blur(30px);
-                }
-    
-                100% {
-                    filter: blur(90px);
-                } 
-            }
-        }
+      100% {
+        filter: blur(340px);
+      }
     }
+
+    @media (max-width: 1350px) {
+      width: 900px;
+      height: 900;
+      filter: blur(180px);
+      @keyframes blur {
+        0% {
+          filter: blur(180px);
+        }
+
+        50% {
+          filter: blur(90px);
+        }
+
+        100% {
+          filter: blur(180px);
+        }
+      }
+    }
+
+    @media (max-width: 1115px) {
+      width: 800px;
+      height: 800px;
+    }
+
+    @media (max-width: 992px) {
+      width: 700px;
+      height: 700px;
+      filter: blur(130px);
+      @keyframes blur {
+        0% {
+          filter: blur(130px);
+        }
+
+        50% {
+          filter: blur(65px);
+        }
+
+        100% {
+          filter: blur(130px);
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      width: 550px;
+      height: 550px;
+    }
+    @media (max-width: 576px) {
+      width: 320px;
+      height: 320px;
+      filter: blur(90px);
+      @keyframes blur {
+        0% {
+          filter: blur(90px);
+        }
+
+        50% {
+          filter: blur(30px);
+        }
+
+        100% {
+          filter: blur(90px);
+        }
+      }
+    }
+  }
 }
 
 .about-banner {
-    position: relative;
-    /* @media (max-width: 1350px) {
+  position: relative;
+  /* @media (max-width: 1350px) {
         margin-top: 25px;
     }
     @media (max-width: 1115px) {
         margin-top: 45px;
     } */
 
-    .circle {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        z-index: 100;
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 100;
 
-        img {
-            width: 800px;
-            height:800px;
+    img {
+      width: 800px;
+      height: 800px;
 
-            // @media (max-width: 1350px) {
-            //     width: 800px;
-            //     height: 800px;
-            // }
+      // @media (max-width: 1350px) {
+      //     width: 800px;
+      //     height: 800px;
+      // }
 
-            @media (max-width: 1115px) {
-                width: 700px;
-                height: 700px;
-            }
+      @media (max-width: 1115px) {
+        width: 700px;
+        height: 700px;
+      }
 
-            @media (max-width: 992px) {
-                width: 600px;
-                height: 600px;
-            }
-
-            @media (max-width: 768px) {
-                width: 450px;
-                height: 450px;
-            }
-            @media (max-width: 576px) {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
-
-    .bg {
-        width: 1180px;
-        height: 1180px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 90;
-        border-radius: 50%;
-        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
-        filter: blur(340px);
-        animation: blur 4s infinite linear;
-
-        @keyframes blur {
-            0% {
-                filter: blur(340px);
-            } 
-
-            50% {
-                filter: blur(170px);
-            }
-
-            100% {
-                filter: blur(340px);
-            } 
-        }
-
-        @media (max-width: 1350px) {
-            width: 900px;
-            height: 900;
-            filter: blur(180px);
-            @keyframes blur {
-                0% {
-                    filter: blur(180px);
-                } 
-    
-                50% {
-                    filter: blur(90px);
-                }
-    
-                100% {
-                    filter: blur(180px);
-                } 
-            }
-        }
-
-        @media (max-width: 1115px) {
-            width: 800px;
-            height: 800px;
-        }
-
-        @media (max-width: 992px) {
-            width: 700px;
-            height: 700px;
-            filter: blur(130px);
-            @keyframes blur {
-                0% {
-                    filter: blur(130px);
-                } 
-    
-                50% {
-                    filter: blur(65px);
-                }
-    
-                100% {
-                    filter: blur(130px);
-                } 
-            }
-        }
-        @media (max-width: 768px) {
-            width: 550px;
-            height: 550px;
-        }
-        @media (max-width: 576px) {
-            width: 320px;
-            height: 320px;
-            filter: blur(90px);
-            @keyframes blur {
-                0% {
-                    filter: blur(90px);
-                } 
-    
-                50% {
-                    filter: blur(30px);
-                }
-    
-                100% {
-                    filter: blur(90px);
-                } 
-            }
-        }
-    }
-}
-
-
-
-
-.chain-ellipse {
-    position: relative;
-    /* @media (max-width: 1350px) {
-        margin-top: 25px;
-    }
-    @media (max-width: 1115px) {
-        margin-top: 45px;
-    } */
-
-    .circle {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        z-index: 100;
-
-        img {
-            width: 522px;
-            height:522px;
-
-            @media (max-width: 768px) {
-                width: 450px;
-                height: 450px;
-            }
-            @media (max-width: 576px) {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
-
-    .bg {
+      @media (max-width: 992px) {
         width: 600px;
         height: 600px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 90;
-        border-radius: 50%;
-        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
-        filter: blur(340px);
-        animation: blur 4s infinite linear;
+      }
 
-        @keyframes blur {
-            0% {
-                filter: blur(340px);
-            } 
-
-            50% {
-                filter: blur(170px);
-            }
-
-            100% {
-                filter: blur(340px);
-            } 
-        }
-
-        @media (max-width: 1350px) {
-            width: 900px;
-            height: 900;
-            filter: blur(180px);
-            @keyframes blur {
-                0% {
-                    filter: blur(180px);
-                } 
-    
-                50% {
-                    filter: blur(90px);
-                }
-    
-                100% {
-                    filter: blur(180px);
-                } 
-            }
-        }
-        
-        @media (max-width: 768px) {
-            width: 550px;
-            height: 550px;
-        }
-        @media (max-width: 576px) {
-            width: 320px;
-            height: 320px;
-            filter: blur(90px);
-            @keyframes blur {
-                0% {
-                    filter: blur(90px);
-                } 
-    
-                50% {
-                    filter: blur(30px);
-                }
-    
-                100% {
-                    filter: blur(90px);
-                } 
-            }
-        }
+      @media (max-width: 768px) {
+        width: 450px;
+        height: 450px;
+      }
+      @media (max-width: 576px) {
+        width: 330px;
+        height: 330px;
+      }
     }
+  }
+
+  .bg {
+    width: 1180px;
+    height: 1180px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    border-radius: 50%;
+    background: linear-gradient(
+      270.77deg,
+      #0071e3 26.72%,
+      #27b8f1 53.69%,
+      #eb0ef1 20%
+    );
+    filter: blur(340px);
+    animation: blur 4s infinite linear;
+
+    @keyframes blur {
+      0% {
+        filter: blur(340px);
+      }
+
+      50% {
+        filter: blur(170px);
+      }
+
+      100% {
+        filter: blur(340px);
+      }
+    }
+
+    @media (max-width: 1350px) {
+      width: 900px;
+      height: 900;
+      filter: blur(180px);
+      @keyframes blur {
+        0% {
+          filter: blur(180px);
+        }
+
+        50% {
+          filter: blur(90px);
+        }
+
+        100% {
+          filter: blur(180px);
+        }
+      }
+    }
+
+    @media (max-width: 1115px) {
+      width: 800px;
+      height: 800px;
+    }
+
+    @media (max-width: 992px) {
+      width: 700px;
+      height: 700px;
+      filter: blur(130px);
+      @keyframes blur {
+        0% {
+          filter: blur(130px);
+        }
+
+        50% {
+          filter: blur(65px);
+        }
+
+        100% {
+          filter: blur(130px);
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      width: 550px;
+      height: 550px;
+    }
+    @media (max-width: 576px) {
+      width: 320px;
+      height: 320px;
+      filter: blur(90px);
+      @keyframes blur {
+        0% {
+          filter: blur(90px);
+        }
+
+        50% {
+          filter: blur(30px);
+        }
+
+        100% {
+          filter: blur(90px);
+        }
+      }
+    }
+  }
 }
 
+.chain-ellipse {
+  position: relative;
+  /* @media (max-width: 1350px) {
+        margin-top: 25px;
+    }
+    @media (max-width: 1115px) {
+        margin-top: 45px;
+    } */
+
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 100;
+
+    img {
+      width: 522px;
+      height: 522px;
+
+      @media (max-width: 768px) {
+        width: 450px;
+        height: 450px;
+      }
+      @media (max-width: 576px) {
+        width: 330px;
+        height: 330px;
+      }
+    }
+  }
+
+  .bg {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    border-radius: 50%;
+    background: linear-gradient(
+      270.77deg,
+      #0071e3 26.72%,
+      #27b8f1 53.69%,
+      #eb0ef1 20%
+    );
+    filter: blur(340px);
+    animation: blur 4s infinite linear;
+
+    @keyframes blur {
+      0% {
+        filter: blur(340px);
+      }
+
+      50% {
+        filter: blur(0px);
+      }
+
+      100% {
+        filter: blur(340px);
+      }
+    }
+
+    @media (max-width: 1350px) {
+      width: 600px;
+      height: 600px;
+      @keyframes blur {
+        0% {
+          filter: blur(160px);
+        }
+
+        50% {
+          filter: blur(80px);
+          width: 0px;
+          height: 0px;
+        }
+
+        100% {
+          filter: blur(160px);
+        }
+      }
+    }
+
+    @media (max-width: 992px) {
+      width: 650px;
+      height: 650px;
+    }
+    @media (max-width: 768px) {
+      width: 550px;
+      height: 550px;
+      filter: blur(160px);
+      @keyframes blur {
+        0% {
+          filter: blur(160px);
+        }
+
+        50% {
+          filter: blur(0);
+        }
+
+        100% {
+          filter: blur(160px);
+        }
+      }
+    }
+    @media (max-width: 576px) {
+      width: 320px;
+      height: 320px;
+      filter: blur(90px);
+      @keyframes blur {
+        0% {
+          filter: blur(90px);
+        }
+
+        50% {
+          filter: blur(30px);
+        }
+
+        100% {
+          filter: blur(90px);
+        }
+      }
+    }
+  }
+}
 
 .modal-ellipse {
-    position: relative;
+  position: relative;
 
-    .circle {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        border-radius: 50%;
-        z-index: 100;
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 100;
 
-        img {
-            width: 400px;
-            height:400px;
+    img {
+      width: 400px;
+      height: 400px;
 
-            @media (max-width: 576px) {
-                width: 300px;
-                height: 300px;
-            }
-        }
+      @media (max-width: 576px) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+
+  .bg {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    border-radius: 50%;
+    background: linear-gradient(
+      270.77deg,
+      #0071e3 26.72%,
+      #27b8f1 53.69%,
+      #eb0ef1 20%
+    );
+    filter: blur(120px);
+    animation: blur 4s infinite linear;
+
+    @keyframes blur {
+      0% {
+        filter: blur(340px);
+      }
+
+      50% {
+        filter: blur(170px);
+      }
+
+      100% {
+        filter: blur(340px);
+      }
     }
 
-    .bg {
-        width: 500px;
-        height: 500px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 90;
-        border-radius: 50%;
-        background: linear-gradient(270.77deg, #0071E3 26.72%, #27B8F1 73.69%);
-        filter: blur(120px);
-        animation: blur 4s infinite linear;
-
-        @keyframes blur {
-            0% {
-                filter: blur(340px);
-            } 
-
-            50% {
-                filter: blur(170px);
-            }
-
-            100% {
-                filter: blur(340px);
-            } 
+    @media (max-width: 1350px) {
+      width: 900px;
+      height: 900;
+      filter: blur(180px);
+      @keyframes blur {
+        0% {
+          filter: blur(180px);
         }
 
-        @media (max-width: 1350px) {
-            width: 900px;
-            height: 900;
-            filter: blur(180px);
-            @keyframes blur {
-                0% {
-                    filter: blur(180px);
-                } 
-    
-                50% {
-                    filter: blur(90px);
-                }
-    
-                100% {
-                    filter: blur(180px);
-                } 
-            }
+        50% {
+          filter: blur(90px);
         }
-        
-        @media (max-width: 768px) {
-            width: 550px;
-            height: 550px;
+
+        100% {
+          filter: blur(180px);
         }
-        @media (max-width: 576px) {
-            width: 320px;
-            height: 320px;
-            filter: blur(90px);
-            @keyframes blur {
-                0% {
-                    filter: blur(90px);
-                } 
-    
-                50% {
-                    filter: blur(30px);
-                }
-    
-                100% {
-                    filter: blur(90px);
-                } 
-            }
-        }
+      }
     }
+
+    @media (max-width: 768px) {
+      width: 550px;
+      height: 550px;
+    }
+    @media (max-width: 576px) {
+      width: 320px;
+      height: 320px;
+      filter: blur(90px);
+      @keyframes blur {
+        0% {
+          filter: blur(90px);
+        }
+
+        50% {
+          filter: blur(30px);
+        }
+
+        100% {
+          filter: blur(90px);
+        }
+      }
+    }
+  }
 }

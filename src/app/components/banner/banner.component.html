@@ -2,8 +2,8 @@
   <div class="container banner__block">
     <div nz-row [nzGutter]="[0, 35]" nzJustify="center">
       <div nz-col nzSpan="20">
-        <h1 nz-typography class="text-center banner__title">
-          {{'bannerHeader' | translate}}
+        <h1 nz-typography class="text-center banner__title" [innerHTML]="'bannerHeader' | translate">
+          
         </h1>
       </div>
       <div nz-col nzSpan="16">
@@ -39,23 +39,23 @@
           <div nz-row>
             <div nz-col nzSpan="24">
               <p class="sliders__type">{{'loanAmount' | translate}}</p>
-              <p class="sliders__count">USDT 14.500.000</p>
+              <p class="sliders__count">USDT {{price | number: '1.2'}}</p>
               <div>
-                <nz-slider [(ngModel)]="value1"></nz-slider>
+                <nz-slider [(ngModel)]="value1" [nzTipFormatter]="formatter" [nzMin]="1" [nzMax]="12" (ngModelChange)="priceChanger()"></nz-slider>
                 <div class="from-to">
-                  <span class="sliders__from">1.000.000</span>
-                  <span class="sliders__to">17.480.000</span>
+                  <span class="sliders__from">1 100</span>
+                  <span class="sliders__to">500 000</span>
                 </div>
               </div>
             </div>
-            <div nz-col nzSpan="24">
+            <div nz-col nzSpan="24" style="margin-top: 20px;">
               <p class="sliders__type">{{"loanPeriod" | translate}}</p>
-              <p class="sliders__count">12 month</p>
+              <p class="sliders__count">{{month}} {{month === 1 ? ('month' | translate) : month > 1 && month < 5 ? ('twoMonth' | translate) : month > 4 ? ('manyMonthes' |translate) : ''}}</p>
               <div>
-                <nz-slider [(ngModel)]="value1"></nz-slider>
+                <nz-slider [(ngModel)]="value2" [nzMin]="1" [nzMax]="12" (ngModelChange)="monthChanger()"></nz-slider>
                 <div class="from-to">
-                  <span class="sliders__from">6 Months</span>
-                  <span class="sliders__to">18 Months</span>
+                  <span class="sliders__from">1</span>
+                  <span class="sliders__to">12</span>
                 </div>
               </div>
             </div>
@@ -65,12 +65,9 @@
       <div nz-col nzSpan="24">
         <div class="price">
           <div nz-row>
-            <div nz-col>
+            <div nz-col nzSpan="24">
               <p class="price__subtitle">{{'earnPerMonth' | translate}}</p>
-              <p class="price__count">USDT 150.000</p>
-              <p class="price__description">
-                {{'sliderModalText' | translate}}
-              </p>
+              <p class="price__count">USDT {{calcProfit | number: '1.2'}}</p>
               <button class="calculate__btn" (click)="handleOkCalc()">{{'sendRequest' | translate}}</button>
             </div>
           </div>

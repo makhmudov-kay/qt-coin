@@ -41,6 +41,7 @@ import { EllipseComponent } from './components/ellipse/ellipse.component';
 import { NzTagModule } from 'ng-zorro-antd/tag';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { createTranslateLoader } from './helpers/http-loader-factory';
+import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 
 registerLocaleData(ru);
 
@@ -95,6 +96,7 @@ registerLocaleData(ru);
     NzStepsModule,
     NzCarouselModule,
     NzTagModule,
+    NzDropDownModule
   ],
   providers: [{ provide: NZ_I18N, useValue: ru_RU }],
   bootstrap: [AppComponent],

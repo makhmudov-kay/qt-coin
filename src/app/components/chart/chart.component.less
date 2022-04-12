@@ -69,5 +69,24 @@
   }
 
   .carousel {
-      height: 360px;
+      height: 220px;
+      position: relative;
+      margin-bottom: 140px;
+
+      .left {
+        position: absolute;
+        top: 50%;
+        z-index: 2000;
+      }
+
+      .right {
+        position: absolute;
+        top: 50%;
+        z-index: 2000;
+        right: 0;
+      }
+  }
+
+  .carts-padding {
+    padding: 0 10px;
   }

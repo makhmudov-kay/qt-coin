@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NzCarouselComponent } from 'ng-zorro-antd/carousel';
 import { BinanceService } from 'src/app/services/binance.service';
 
 @Component({
@@ -69,4 +70,10 @@ export class ChartComponent implements OnInit {
     }, 5000);
   }
 
+  pre(e: NzCarouselComponent) {
+    e.pre()
+  }
+  next(e: NzCarouselComponent) {
+    e.next()
+  }
 }

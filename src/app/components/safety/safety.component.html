@@ -1,4 +1,4 @@
-<div class="safety">
+<div class="safety" [ngClass]="{'en': currentLang === 'en', 'uzb': currentLang === 'uzb'}" >
   <div nz-row>
     <div nz-col nzXs="1" nzSm="1" nzMd="2" nzLg="3" nzXl="3"></div>
     <div nz-col nzXs="22" nzSm="22" nzMd="20" nzLg="18" nzXl="18">
@@ -11,13 +11,13 @@
               </h2>
             </div>
             <div nz-col nzSpan="24">
-              <div nz-row [nzGutter]="[{ xs: 15, md: 20, lg: 40}, { xs: 15, md: 20, lg: 40}]" nzJustify="center">
+              <div nz-row [nzGutter]="[{ xs: 5, md: 20, lg: 40}, { xs: 5, md: 20, lg: 40}]" nzJustify="center">
                 <div nz-col nzXs="20" nzXl="24" *ngFor="let safe of safety" >
                   <div nz-row [nzGutter]="[20, 0]">
-                    <div nz-col nzSpan="2">
+                    <div nz-col nzXs="0" nzLg="2">
                       <img src="./assets/images/safety-mark.svg" alt="icon" />
                     </div>
-                    <div nz-col nzSpan="22" class="cards">
+                    <div nz-col nzXs="24" nzLg="22" class="cards">
                       <h3 nz-typography class="safety__subtitle">
                         {{ safe.title | translate}}
                       </h3>

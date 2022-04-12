@@ -3,7 +3,7 @@ nz-sider {
   height: 100%;
   position: fixed;
   left: 0;
-  z-index: 10000;
+  z-index: 1200;
   padding-bottom: 40px;
 }
 
@@ -35,6 +35,7 @@ nz-footer {
   &-link {
     display: flex;
     align-items: center;
+    // padding-bottom: 0;
 
     span {
       font-family: Manrope;
@@ -73,11 +74,29 @@ nz-footer {
   }
 }
 
+.burger {
+  padding-top: 2px;
+}
+
+.lang {
+  padding-bottom: 3px;
+}
+
 .icon-btn {
+  &.lang {
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      padding-bottom: 3px;
+    }
+  }
   svg {
     path {
       transition: 0.4s;
-      stroke: #fff
+      stroke: #fff;
     }
   }
 
@@ -116,9 +135,8 @@ nz-footer {
   }
 }
 
-
 .sider {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(4px);
   padding-bottom: 40px;
 
@@ -140,7 +158,6 @@ nz-footer {
     font-family: Manrope;
     color: #fff;
     margin-bottom: 75px;
-
     svg {
       width: 70px;
       height: 70px;
@@ -170,24 +187,28 @@ nz-footer {
     line-height: 40px;
 
     &:hover {
-      color: #0071E3;
+      color: #0071e3;
     }
   }
 
   &__list {
     a {
       font-size: 24px;
-      line-height: 26px;
+      line-height: 30px;
       color: #fff;
       display: block;
       padding: 0 16px;
-
+      font-weight: 600;
       &:hover {
-        color: #0071E3;
+        color: #0071e3;
       }
 
       &:active {
-        color: lighten(#0071E3, 10%);
+        color: lighten(#0071e3, 10%);
+      }
+
+      &.market {
+        margin-top: 25px;
       }
     }
   }
@@ -227,7 +248,7 @@ nz-footer {
     line-height: 19px;
     font-family: Manrope;
     font-weight: 400;
-    color: #8B8B90;
+    color: #8b8b90;
   }
 
   &__privacy {
@@ -236,7 +257,7 @@ nz-footer {
       line-height: 15px;
       font-family: Manrope;
       font-weight: 400;
-      color: #0371E2;
+      color: #0371e2;
       margin-right: 20px;
     }
   }
@@ -246,7 +267,7 @@ nz-footer {
     line-height: 18px;
     font-family: Manrope;
     font-weight: 700;
-    color: #8B8B90;
+    color: #8b8b90;
     margin-bottom: 27px;
   }
 
@@ -256,12 +277,12 @@ nz-footer {
     line-height: 14px;
     font-family: Manrope;
     font-weight: 400;
-    color: #8B8B90;
+    color: #8b8b90;
     margin-bottom: 20px;
     transition: 0.3s;
 
     &:hover {
-      color: #0371E2;
+      color: #0371e2;
     }
   }
 
@@ -274,7 +295,7 @@ nz-footer {
   .list-item {
     font-size: 14px;
     line-height: 18px;
-    color: #86898C;
+    color: #86898c;
   }
 
   .list-title {
@@ -284,11 +305,32 @@ nz-footer {
   .list-link {
     a {
       font-weight: 300;
-      color: #F1F2F5;
+      color: #f1f2f5;
 
       &:hover {
-        color: darken(#F1F2F5, 10%);
+        color: darken(#f1f2f5, 10%);
       }
+    }
+  }
+
+  &__reg-a {
+    margin-top: 35px;
+    a {
+      padding: 15px 28px;
+      border: 1px solid #0071e3;
+      border-radius: 8px;
+      color: #fff;
+      transition: 0.3s;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: Manrope;
+
+      &:hover {
+        background: #0071e3;
+      }
+    }
+    @media (max-width: 992px) {
+      margin-bottom: 15px;
     }
   }
 }
@@ -303,16 +345,41 @@ nz-footer {
       font-size: 16px;
       font-family: Manrope;
       font-weight: 500;
-      color: #8B8B90;
+      color: #8b8b90;
     }
   }
 
   .price {
     padding: 47px 80px 80px;
-    background: #0072E3;
+    background: #0072e3;
   }
 
   &__btn {
+  }
+}
 
+.dropdown-menu {
+  background: #313132;
+  border-radius: 12px;
+  position: relative;
+  z-index: 9999;
+
+  li {
+    &:active {
+      background: #313132;
+    }
+  }
+}
+
+.dropdown-menu-s {
+  background: #313132;
+  border-radius: 12px;
+  position: absolute !important;
+  z-index: 9999 !important;
+
+  li {
+    &:active {
+      background: #313132;
+    }
   }
 }
