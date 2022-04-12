@@ -1,6 +1,6 @@
 {
     "pullRequest": "Arizani yuborish",
-    "bannerHeader": "QtCoin-da kriptovalyuta savdosini qanday boshlash mumkin",
+    "bannerHeader": "<span>QTCoin-da</span> kriptovalyuta savdosini qanday boshlash mumkin",
     "bannerText": "QT Coin Exchange raqamli aktivlar savdosiga ixtisoslashtirilgan dunyodagi yetakchi platforma hisoblanadi, platforma raqamli aktivlarga moliyaviy xizmatlar koʻrsatish bo‘yicha koʻp yillik tajribaga ega.<br>Kelajagingiz uchun bugunnig o‘zida malakali va xavfsiz investitsiya",
     "calcProfit": "Daromadlilikni hisoblang",
     "beginEarn": "Daromad olishni boshlang",
@@ -9,15 +9,15 @@
     "stepFirstText": "Uyingizdan chiqmasdan va maxsus ma’lumotga ega bo‘lmasdan pul ishlang Bizning servsimiz kriptovalyuta bilan avtomatik savdo qilish uchun mo ljallangan, shu sababli ishni nazorat qilish va kuzatish uchun ko‘p vaqt talab etilmaydi.",
     "stepFirstBtn": "Qayerdan boshlash kerak?",
 
-    "registered": "1. QtCoin-da ro'yxatdan o'tish",
-    "stepSecondText": "DataSignal saytida ro‘yxatdan o‘tganingizdan so‘ng, tushuntirish xatini olasiz, unga QtCoin ilovasini o‘rnatish uchun havola biriktirilgan bo‘ladi, ilovani o‘rnating va shaxsiy akkaunt yarating.",
+    "registered": "1. QTCoin-da ro'yxatdan o'tish",
+    "stepSecondText": "DataSignal saytida ro‘yxatdan o‘tganingizdan so‘ng, tushuntirish xatini olasiz, unga QTCoin ilovasini o‘rnatish uchun havola biriktirilgan bo‘ladi, ilovani o‘rnating va shaxsiy akkaunt yarating.",
     "stepSecondBtn": "Keyingi",
 
     "registered2": "2. Binance-da ro'yxatdan o'ting",
     "stepThirdText": "Binance ilovasini oʻrnating va hamyoningizni to‘ldirish uchun verifikatsiyadan oʻting",
 
     "buy": "3. USDT sotib oling",
-    "stepFourthText": "Binance platformasida kerakli miqdorda USDT TRC20 tokenlarini xarid qiling, USDT tokenlarini QtCoin ilovasidagi hamyoningizga oʻtkazing",
+    "stepFourthText": "Binance platformasida kerakli miqdorda USDT TRC20 tokenlarini xarid qiling, USDT tokenlarini QTCoin ilovasidagi hamyoningizga oʻtkazing",
 
     "getStepFifthTitle": "4. Signallarni oling",
     "getStepFifthText": "Biz sizni yopiq telegram kanalga qo‘shamiz, u yerda siz savdo qilish bo‘yicha batafsil ma’lumotlarga ega bo‘lasiz, shuningdek, batafsil signal va ko‘rsatmalarni olasiz.",
@@ -33,7 +33,7 @@
     "advantagesTitleSpan": "QT Coinning",
     "advantagesTitleComp": "afzalliklari",
     "advCardOneTitle": "Soddalik",
-    "advCardOneText": "QtCoin’da savdo qilishni boshlash uchun siz ko‘p yillik tajribaga ega broker bo‘lishingiz shart emas, biz bilan istalgan inson sarmoya kiritishi mumkin.",
+    "advCardOneText": "QTCoin’da savdo qilishni boshlash uchun siz ko‘p yillik tajribaga ega broker bo‘lishingiz shart emas, biz bilan istalgan inson sarmoya kiritishi mumkin.",
     
     "advCardTwoTitle": "Maxfiylik",
     "advCardTwoText": "Sizning ma’lumotlaringiz ishonchli himoya ostida bo‘ladi va oshkor etilmaydi.",
@@ -54,14 +54,14 @@
     "advCardSevenText": "Bizning tizimimiz mutlaqo shaffof, har bir foydalanuvchi o‘z daromadlari va xarajatlari haqida eng to‘liq ma’lumotga ega bo‘ladi",
 
     "advCardEightTitle": "Eng yaxshi mutaxassislar",
-    "advCardEightText": "QtCoin jamoasida butun dunyoda faoliyat olib boruvchi o‘nlab eng malakali IT mutaxassislar jamlangan",
+    "advCardEightText": "QTCoin jamoasida butun dunyoda faoliyat olib boruvchi o‘nlab eng malakali IT mutaxassislar jamlangan",
 
     "safetyTitle": " xavfsizligi",
     "safetyTitleSpan": "Mablag‘laringizning",
     "safetyBlockOneTitle": "Xavfsizlik kafolati",
-    "safetyBlockOneText": "QtCoin bozordagi eng ilg‘or xavfsizlik protokollaridan foydalanadi",
+    "safetyBlockOneText": "QTCoin bozordagi eng ilg‘or xavfsizlik protokollaridan foydalanadi",
     "safetyBlockTwoTitle": "Aktivlar sug‘urtalangan",
-    "safetyBlockTwoText": "QtCoin birjasi Yaponiya, Janubiy Koreyada ishlaydi, yuqori ishonch kreditiga ega va ishonchliligi bilan mashhur",
+    "safetyBlockTwoText": "QTCoin birjasi Yaponiya, Janubiy Koreyada ishlaydi, yuqori ishonch kreditiga ega va ishonchliligi bilan mashhur",
     "safetyBlockThreeTitle": "Mijoz bilan ochiq muloqot",
     "safetyBlockThreeText": "DataSignal jamoasi sizga aniq ko‘rsatmalar beradi va kriptovalyuta bilan qanday savdo qilishni va aql bilan sarmoya kiritishni o‘rgatadi. Biz sizning savollaringizga javob berish va muammolaringizni hal qilish ishlaymiz.",
 
@@ -80,7 +80,7 @@
     "faqTitleSpan": "savollar",
     
     "faqFirstTitle": "1. DataSignal nima?",
-    "faqFirstText": "DataSignal – bu treyderlar jamoasi bo‘lib, uning vazifasi QtCoin birjasida qanday savdo qilishni va daromadingizni oshirishni o‘rgatishdan iborat.",
+    "faqFirstText": "DataSignal – bu treyderlar jamoasi bo‘lib, uning vazifasi QTCoin birjasida qanday savdo qilishni va daromadingizni oshirishni o‘rgatishdan iborat.",
     
     "faqSecondtTitle": "2. Kriptovalyutaga sarmoya kiritish xavfsizmi?",
     "faqSecondtText": "Ha! Kriptovalyuta bozori, boshqa bozorlar singari, doimiy ravishda o‘zining ko‘tarilish va pasayishlarini boshdan kechirmoqda, ammo bugungi kunda savdolarning katta qismi kriptovalyutalar yordamida amalga oshiriladi. Kripto bozorining jadal rivojlanishi va tobora ko‘proq yangi savdo platformalarining paydo bo‘lishi bir narsa haqida gapiradi. Kriptovalyuta – bu kelajak valyutasi ",
@@ -89,15 +89,15 @@
     "faqThirdText": "Hech qachon kech emas! Har kuni tobora ko‘proq yangi kripto coin’lar va tokenlar paydo bo‘lmoqda, tobora ko‘proq kampaniyalar o‘z aktivlarini kriptovalyutaga o‘tkazmoqda va undan foydalangan holda xalqaro tranzaktsiyalar amalga oshirilmoqda. Datasignal jamoasi sizga yangi investitsiya kiritishda yordam berish va kripto bozorda pul ishlash yo‘llarini o‘rgatish uchun ishlamoqda.",
 
     "faqFourthTitle": "4. USDT nima?",
-    "faqFourthText": "Tether - bu 2014 yilda Gonkongda ro‘yxatdan o‘tgan Tether Limited kompaniyasi tomonidan chiqarilgan token (ko‘pincha USDT deb ataladi). Ushbu token QtCoin birjasida asosiy to‘lov usuli sifatida foydalaniladi",
+    "faqFourthText": "Tether - bu 2014 yilda Gonkongda ro‘yxatdan o‘tgan Tether Limited kompaniyasi tomonidan chiqarilgan token (ko‘pincha USDT deb ataladi). Ushbu token QTCoin birjasida asosiy to‘lov usuli sifatida foydalaniladi",
 
     "faqFifthTitle": "5. Kripto hamyonni to‘ldirish yoki pul yechib olish osonmi?",
     "faqFifthText": "Hamyonni to‘ldirish va pul yechib olish uchun Binance xalqaro moliyaviy platformasidan foydalaniladi. Mablag‘larni vositachilarsiz Visa kartangizga tushirishgiz mumkin.",
 
-    "faqSixthTitle": "6. QtCoin’da savdoni boshlash uchub nima qilish kerak?",
+    "faqSixthTitle": "6. QTCoin’da savdoni boshlash uchub nima qilish kerak?",
     "faqSixthText": "Avval, foydalanuvchi o‘zining kripto hamyonini yaratishi va verifikatsiyadan o‘tkazishi kerak, muvaffaqiyatli verifikatsiyadan so‘ng foydalanuvchi telegram kanaliga o‘tkaziladi, u yerda savdo qilish uchun signallarni oladi.",
 
-    "faqSeventhTitle": "7. QtCoin bilan savdo qilish uchun nima kerak?",
+    "faqSeventhTitle": "7. QTCoin bilan savdo qilish uchun nima kerak?",
     "faqSeventhText": "Sizga Apple IOS yoki Google Android tizimida ishlaydigan istalgan qurilma, shuningdek barqaror va tez Internet aloqasi kerak bo‘ladi",
 
     "footerMenuTitle1": "Foydali",
@@ -119,7 +119,7 @@
     "month": "Oy",
     "twoMonth": "Oy",
     "manyMonthes": "Oy",
-    "earnPerMonth": "Hisoblangan oylik to'lovlar",
+    "earnPerMonth": "Jami",
     "sliderModalText": "Installment fees may change according to the results of the verification of the physical condition of the vehicle at the branch office.",
 
     "siderLink1": "Главная",
@@ -128,5 +128,7 @@
     "siderLink4": "Преимущества DataSignal",
     "siderLink5": "Безопасность Ваших автивов",
     "siderLink6": "Оставьте заявку на регистрацию",
-    "siderLink7": "Часто задаваемые вопросы"
+    "siderLink7": "Часто задаваемые вопросы",
+
+    "footerLinkQT": "QTCoin-da ro'yxatdan o'tish"
 }
