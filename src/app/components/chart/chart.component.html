@@ -1,27 +1,3 @@
-<!-- <div class="charts-block">
-    <div class="container">
-        <div class="charts">
-            <div nz-row [nzGutter]="[30, 30]">
-                <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="6" nzXl="6">
-                    <div class="charts__block">1</div>
-                </div>
-                <div nz-col nzXs="0" nzSm="12" nzMd="12" nzLg="6" nzXl="6">
-                    <div class="charts__block">1</div>
-                </div>
-                <div nz-col nzXs="0" nzSm="12" nzMd="12" nzLg="6" nzXl="6">
-                    <div class="charts__block">1</div>
-                </div>
-                <div nz-col nzXs="0" nzSm="12" nzMd="12" nzLg="6" nzXl="6">
-                    <div class="charts__block">1</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ellipse">
-        <app-ellipse [banner]="true"></app-ellipse>
-    </div>
-</div> -->
-
 <div class="charts-block">
   <div nz-row>
     <div nz-col nzXs="1" nzSm="1" nzMd="2" nzLg="3" nzXl="3"></div>
@@ -43,16 +19,16 @@
                   <div nz-row>
                     <div nz-col nzSpan="24">
                       <div nz-row nzAlign="middle">
-                        <div nz-col nzSpan="5">
+                        <div nz-col nzSpan="6">
                           <img [src]="info.logo" alt="crypto" />
                         </div>
-                        <div nz-col nzSpan="4" class="charts__name">
+                        <div nz-col nzSpan="5" class="charts__name">
                           {{ info.symbol }}
                         </div>
                         <div nz-col nzSpan="6">
                           <nz-tag>{{ info.tag }}</nz-tag>
                         </div>
-                        <div nz-col nzSpan="9" class="text-end">
+                        <div nz-col nzSpan="7" class="text-end">
                           <button nz-button nzType="link">
                             <i
                               nz-icon
@@ -82,7 +58,7 @@
                         <div nz-col nzSpan="12">
                           <div class="charts__diagramm">
                             <img
-                              src="../../../assets/images/chart.png"
+                              src="./assets/images/chart.png"
                               alt="chart"
                             />
                           </div>

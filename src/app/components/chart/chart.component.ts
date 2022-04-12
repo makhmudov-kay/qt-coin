@@ -9,10 +9,10 @@ import { BinanceService } from 'src/app/services/binance.service';
 export class ChartComponent implements OnInit {
   array = [1, 2, 3, 4];
   cryptoInfo = [
-    { symbol: 'BTC', price: '', logo: '../../../assets/images/btc.png', tag: 'BITCOIN', percent: '1.41'},
-    { symbol: 'ETH', price: '', logo: '../../../assets/images/eth.png', tag: 'ETHEREUM', percent: '2.22' },
-    { symbol: 'BNB', price: '', logo: '../../../assets/images/bnb.png', tag: 'BINANCE', percent: '0.82' },
-    { symbol: 'USDT', price: '1.00', logo: '../../../assets/images/usdt.png', tag: 'TETHER', percent: '0,03' },
+    { symbol: 'BTC', price: '', logo: './assets/images/btc.png', tag: 'BITCOIN', percent: '1.41'},
+    { symbol: 'ETH', price: '', logo: './assets/images/eth.png', tag: 'ETHEREUM', percent: '2.22' },
+    { symbol: 'BNB', price: '', logo: './assets/images/bnb.png', tag: 'BINANCE', percent: '0.82' },
+    { symbol: 'USDT', price: '1.00', logo: './assets/images/usdt.png', tag: 'TETHER', percent: '0,03' },
   ]
 
   constructor(private binanceService: BinanceService) { }
