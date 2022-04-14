@@ -28,6 +28,7 @@
             "inlineStyleLanguage": "less",
             "assets": [
               "src/favicon.ico",
+              "src/svgFav.svg",
               "src/assets",
               "src/signal.ico",
               {
