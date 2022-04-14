@@ -8,7 +8,7 @@ import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
   styleUrls: ['./banner.component.less']
 })
 export class BannerComponent implements OnInit {
-  isVisibleCalculate = false;
+  isVisibleCalculate = true;
   isVisibleLast = false;
   isVisibleModalForm = false;
   value1!: number;
